@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="10dp"
+    android:layout_margin="8dp"
     android:backgroundTint="@color/colorBlack">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -24,8 +24,8 @@
 
         <ImageView
             android:id="@+id/playButton"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
+            android:layout_width="85dp"
+            android:layout_height="85dp"
             android:alpha="0.6"
             android:scaleType="centerCrop"
             android:src="@drawable/ic_play_circle_filled_grey_24dp"
