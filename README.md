@@ -25,6 +25,8 @@ I decided to use MVP for the following reasons -
 
 **ExoPlayer** Media player library for displaying Videos
 
+**Glide** Image loading
+
 
 
 
@@ -37,7 +39,7 @@ I have added an error view card to display an error message incase of any networ
 
 **Error View Click**
 
-Clicking the error view will re-try the network access so the user doesn’t remain stuck on the same screen. As a side note, I can also ask check if the WiFi is active before making the network request and if not, display the Forecast from the SharedPreferences instance from the PreferencesManager. But I chose to not do that as I wanted to make sure I have the right location.
+Clicking the error view will re-try the network access so the user doesn’t remain stuck on the same screen. If given more time, I would cache the Video List using a DB or create a SharedPreferences Manager to persist the data. This way if the network is down, I will directly display the cached list to the user.
 
 **Utils Package - Constants.java**
 
